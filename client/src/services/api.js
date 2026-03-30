@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://pearmedia-backend.onrender.com/api";
 
 export const enhanceText = async (prompt) => {
   const res = await fetch(`${BASE_URL}/text/enhance`, {
